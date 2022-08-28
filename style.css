@@ -57,18 +57,16 @@ p{
     border-color: dark;
     color: white;
     width: 120px;
+    background-color: #2be653;
 }
 
+canvas{
+    height: 500px;
+}
 
-
-
-
-
-
-
-
-
-
+.canvas-chart{
+    width: 575px;
+}
 
 #background-image{
     width: 100%;
@@ -92,6 +90,42 @@ p{
     opacity: 0.3;
     z-index: -1;
 }
+
+
+
+#country-selector-button{
+    width: 300px;
+    background-color: #2be653;
+    font-size: 20px;
+}
+
+.glow-border{
+    border-color: beige;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+
+#search{
+    display: flex;
+    justify-content: center;
+}
+
+#country-dropdown{
+    background-color: #29332a;
+    height: 200px;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+#country-dropdown > li >a:hover{
+    background-color: black;
+    font-size: 18px;
+}
+
+
+
+
 
 
 
