@@ -28,3 +28,13 @@ p{
     background-size: cover;
     margin: 0 0 0 20px;
 }
+
+#background-image{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url('background-image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
