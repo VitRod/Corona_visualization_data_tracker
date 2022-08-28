@@ -123,6 +123,44 @@ canvas{
     font-size: 18px;
 }
 
+#radio-button-container{
+    /* display: none; */
+    display: inline-block;
+}
+
+#spinner{
+    display: none;
+}
+
+#general-details-container {
+    font-size: 25px;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#canvas-container-container{
+    width: 80%;
+    margin: auto;
+}
+
+#canvas-container{
+    display: inline-block;
+}
+
+
+.bgdarkoverlay{
+    background-color: #dfec1d;
+    opacity: 0.5;
+}
+
+.footer{
+    background-color: #f1e425;
+    color:beige;
+    margin-top: auto;
+}
+
 
 
 
