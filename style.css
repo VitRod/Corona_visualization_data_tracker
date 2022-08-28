@@ -6,3 +6,25 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#loading{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f8fa9f;
+    z-index: 100;
+}
+
+.navbar-brand{
+    background-image: url(mylogo.png);
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    margin: 0 0 0 20px;
+}
