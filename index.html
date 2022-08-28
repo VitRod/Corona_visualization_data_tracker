@@ -1,70 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Corona Visualization Data Tracker</title>
-    <link rel="icon" type="image/x-icon" sizes="32x32" href="mylogo.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Varela&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
- <!--  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.min.js"></script>  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-    <script src="https://kit.fontawesome.com/e7fd050cda.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corona Visualization Data Tracker</title>
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="mylogo.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Varela&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.min.js"></script>  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+  <script src="https://kit.fontawesome.com/e7fd050cda.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <!-- <body onload="loadingComplete()"> -->
+
 <body>
   <!-- <div id="loading" class="text-white justify-content-center align-items-center"> 
     <div class="spinner-border m-5 text-dark" role="status">
       <span class="visually-hidden m-auto">Loading...</span>
     </div>
   </div> -->
-  
+
   <div id="background-image"></div>
   <div id="overlay" class=""> </div>
   <!------------------------------------------------------------------------------------------------------------------------------------------------>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-dark"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon navbar-dark"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav pull-right">
-              <li class="nav-item mx-2">
-                <a class="nav-link active text-dark" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link active text-dark" aria-current="page" href="https://www.who.int/health-topics/coronavirus#tab=tab_1">CORONA</a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link active text-dark" href="https://github.com/M-Media-Group/Covid-19-API">API</a>
-              </li>
-              <li class="nav-item mx-2">
-          <!--      <a class="nav-link active text-light" href="#" tabindex="-1" aria-disabled="true">CONTACT US</a>     -->
-              </li>
-          </div>
-        </div>
-      </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav pull-right">
+          <li class="nav-item mx-2">
+            <a class="nav-link active text-dark" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active text-dark" aria-current="page"
+              href="https://www.who.int/health-topics/coronavirus#tab=tab_1">CORONA</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active text-dark" href="https://github.com/M-Media-Group/Covid-19-API">API</a>
+          </li>
+          <li class="nav-item mx-2">
+            <!--      <a class="nav-link active text-light" href="#" tabindex="-1" aria-disabled="true">CONTACT US</a>     -->
+          </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="heading-container">
+    <div class="heading">
+      Corona and Covid 19 Visualization Data Tracker
+    </div>
+    <div class="sub-heading">
+      This website page shows to all visitors daily statistics of Corona spread using Covid 19 API.
+    </div>
+  </div>
+  <div id="search" class="my-3 py-3">
+    <div class="dropdown d-inline px-3">
+      <button id="country-selector-button" class="btn btn-secondary dropdown-toggle glow-border" type="button"
+        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Select Country
+      </button>
+      <ul id="country-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+
+      </ul>
+    </div>
+    <button id="country-search-button" type="button" class="btn btn-primary d-inline ml-3">Search</button>
+  </div>
 
 
 
 
- 
 
 
 
 
 
-  
-  
-    <script src="app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  
-  </body>
-  </html>
-  
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
