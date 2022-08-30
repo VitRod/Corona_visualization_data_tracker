@@ -7,8 +7,6 @@ countryJSON.forEach(countryListObject => {
 
 const loadingComplete = function (){
     const loading = document.getElementById('loading');
-    loading.style.display = 'none';  
-
-    
+    loading.style.display = 'none';    
 }
 
