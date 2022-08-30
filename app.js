@@ -16,3 +16,4 @@ countryDropDown.innerHTML = countryDropdownString;
 let selectedCountry;
 let selectedCountryCode;
 const countrySelectorButton = document.getElementsById('country-selector-button');
+const countryList = document.querySelectorAll('.country-list');
