@@ -14,3 +14,4 @@ const countryDropDown = document.getElementById('country-dropdown');
 countryDropDown.innerHTML = countryDropdownString;
 
 let selectedCountry;
+let selectedCountryCode;
