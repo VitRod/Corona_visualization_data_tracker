@@ -26,3 +26,9 @@ countryList.forEach ((item, index) => {
         
         })   
 });
+
+
+const initiateGeneralDetailsContainer = function(){
+
+
+}
