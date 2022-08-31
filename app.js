@@ -19,7 +19,8 @@ const countrySelectorButton = document.getElementsById('country-selector-button'
 const countryList = document.querySelectorAll('.country-list');
 countryList.forEach ((item, index) => {
         item.addEventListener('click', ()=>{
-            selectedCountry = item.innerText; 
+            selectedCountry = item.innerText;
+            selectedCountryCode = countryJSON[index].code; 
         })   
 
 }
