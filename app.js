@@ -39,3 +39,5 @@ const initiateGeneralDetailsContainer = function(){
     <p class="partially-vaccinated text-success pb-4"></p>
     `
 }
+
+let cardCountryName;
