@@ -41,3 +41,10 @@ const initiateGeneralDetailsContainer = function(){
 }
 
 let cardCountryName;
+let cardConfirmedCases;
+
+
+
+
+
+
