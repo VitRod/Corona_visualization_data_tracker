@@ -21,8 +21,7 @@ countryList.forEach ((item, index) => {
         item.addEventListener('click', ()=>{
             selectedCountry = item.innerText;
             selectedCountryCode = countryJSON[index].code; 
+            console.log(selectedCountry, selectedCountryCode);
+            countrySelectorButton.innerText = selectedCountry;
         })   
-
-}
-
-)
+});
