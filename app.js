@@ -23,5 +23,6 @@ countryList.forEach ((item, index) => {
             selectedCountryCode = countryJSON[index].code; 
             console.log(selectedCountry, selectedCountryCode);
             countrySelectorButton.innerText = selectedCountry;
+        
         })   
 });
