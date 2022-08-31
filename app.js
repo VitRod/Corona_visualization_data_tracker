@@ -20,7 +20,7 @@ const countryList = document.querySelectorAll('.country-list');
 countryList.forEach ((item, index) => {
         item.addEventListener('click', ()=>{
             selectedCountry 
-        })
+        })   
 
 }
 
