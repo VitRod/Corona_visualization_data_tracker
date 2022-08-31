@@ -29,6 +29,13 @@ countryList.forEach ((item, index) => {
 
 
 const initiateGeneralDetailsContainer = function(){
-    generalDetailsContainer.innerHTML =
-
+    generalDetailsContainer.innerHTML = `
+    <p class="country-name py-4 text-white"></p>
+    <p class="confirmed-cases text-danger"></p>
+    <p class="percentage-confirmed text-danger"></p>
+    <p class="deaths text-danger"></p>
+    <p class="recovered text-success mt-4"></p>
+    <p class="completely-vaccinated text-success"></p>
+    <p class="partially-vaccinated text-success pb-4"></p>
+    `
 }
