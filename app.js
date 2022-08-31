@@ -45,6 +45,8 @@ let cardConfirmedCases;
 let cardPercentageConfirmed;
 let cardDeath;
 let cardRecovered;
+let cardCompletelyCaccinated;
+
 
 
 
