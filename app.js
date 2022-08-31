@@ -29,6 +29,6 @@ countryList.forEach ((item, index) => {
 
 
 const initiateGeneralDetailsContainer = function(){
-
+    generalDetailsContainer.innerHTML =
 
 }
