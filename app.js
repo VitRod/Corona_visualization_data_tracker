@@ -19,7 +19,7 @@ const countrySelectorButton = document.getElementsById('country-selector-button'
 const countryList = document.querySelectorAll('.country-list');
 countryList.forEach ((item, index) => {
         item.addEventListener('click', ()=>{
-            selectedCountry 
+            selectedCountry = item.innerText; 
         })   
 
 }
