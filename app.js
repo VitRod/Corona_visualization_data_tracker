@@ -47,7 +47,7 @@ let cardDeath;
 let cardRecovered;
 let cardCompletelyCaccinated;
 let cardPartiallyVaccinated;
-
+let cardPercentageVaccinated;
 
 
 
