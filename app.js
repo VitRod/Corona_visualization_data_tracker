@@ -44,6 +44,7 @@ let cardCountryName;
 let cardConfirmedCases;
 let cardPercentageConfirmed;
 let cardDeath;
+let cardRecovered;
 
 
 
