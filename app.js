@@ -50,7 +50,7 @@ let cardPartiallyVaccinated;
 let cardPercentageVaccinated;
 
 
-
+const generalDetailsContainer = document.getElementById('general-details-container');
 
 
 
