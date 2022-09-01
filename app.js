@@ -57,6 +57,10 @@ const spinner = document.getElementById('spinner');
 
 const initiateDomOperators = function(){
     cardCountryName = document.querySelector('.country-name');
+    cardConfirmedCases = document.querySelector('.confirmed-cases');
+
+
+
 
 }
 
