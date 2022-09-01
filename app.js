@@ -43,7 +43,7 @@ const initiateGeneralDetailsContainer = function(){
 let cardCountryName;
 let cardConfirmedCases;
 let cardPercentageConfirmed;
-let cardDeath;
+let cardDeaths;
 let cardRecovered;
 let cardCompletelyCaccinated;
 let cardPartiallyVaccinated;
@@ -60,6 +60,7 @@ const initiateDomOperators = function(){
     cardConfirmedCases = document.querySelector('.confirmed-cases');
     cardPercentageConfirmed = document.querySelector('.percentage-confirmed');
     cardDeaths = document.querySelector('.deaths');
+    cardRecovered = document.querySelector('.recovered');
 
 
 }
