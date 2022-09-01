@@ -56,7 +56,7 @@ const radioButtonContainer = document.getElementById('radio-button-container');
 const spinner = document.getElementById('spinner');
 
 const initiateDomOperators = function(){
-
+    cardCountryName = document.querySelector('.country-name');
 
 }
 
