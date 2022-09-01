@@ -51,7 +51,7 @@ let cardPercentageVaccinated;
 
 
 const generalDetailsContainer = document.getElementById('general-details-container');
-
+const canvasContainer = document.getElementById('canvas-container');
 
 
 
