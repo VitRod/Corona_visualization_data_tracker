@@ -45,7 +45,7 @@ let cardConfirmedCases;
 let cardPercentageConfirmed;
 let cardDeaths;
 let cardRecovered;
-let cardCompletelyCaccinated;
+let cardCompletelyVaccinated;
 let cardPartiallyVaccinated;
 let cardPercentageVaccinated;
 
@@ -63,6 +63,8 @@ const initiateDomOperators = function(){
     cardRecovered = document.querySelector('.recovered');
     cardCompletelyVaccinated = document.querySelector('.completely-vaccinated'); 
 
+
+    
 }
 
 
