@@ -59,7 +59,7 @@ const initiateDomOperators = function(){
     cardCountryName = document.querySelector('.country-name');
     cardConfirmedCases = document.querySelector('.confirmed-cases');
     cardPercentageConfirmed = document.querySelector('.percentage-confirmed');
-
+    cardDeaths = document.querySelector('.deaths');
 
 
 }
