@@ -71,13 +71,16 @@ let radioButtons = document.getElementsByClassName('radio-button');
 
 
 const getData = async (url) => {const
-    return fetch (url).then (res => {
+    return fetch(url).then(res => {
         return res.json();
     });
 };
 
 const fetchCountryGeneralData = async function (name) {
-    
+    const  data = await Promise.all ([ 
+        getData(`https://covid-api.mmediagroup.fr/v1/cases?ab=${name}`),
+        getData(`https://covid-api.mmediagroup.fr/v1/vaccines?ab=${name}`)
+    ])
 }
 
 
