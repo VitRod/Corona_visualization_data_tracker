@@ -136,6 +136,7 @@ const displayCountryHistoryData = function(data2){
         recoveredCounts.push(data2[2].All.dates[date]);
     })
     checkError(recoveredCounts);
+    dailyRecoveredCounts = [0];
     
 
 
