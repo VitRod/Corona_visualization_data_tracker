@@ -131,6 +131,7 @@ const displayCountryHistoryData = function(data2){
         dailyConfirmedCounts.push(confirmedCounts[i]-confirmedCounts[i-1]);
     }
     recoveredDates = dates;
+    let recoveredCounts = [];
 
     
 
