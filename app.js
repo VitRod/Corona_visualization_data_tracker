@@ -67,15 +67,8 @@ const initiateDomOperators = function(){
 
 }
 
+let radioButtons = document.getElementsByClassName('radio-button');
 
-
-
-// // to write segment widget in Quantum Visualizer 
-
-// getTodos_success = function(response){
-//     this.view.segNewData.widgetDataMap = {lblProgMainData1 : "title" };
-//     this.view.segNewData.setData(response.responseList);
-// }
 
 
 
