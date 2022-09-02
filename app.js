@@ -148,4 +148,5 @@ const displayCountryHistoryData = function(data2){
         c: dailyDeathCounts,
         d: confirmedCounts, 
         e: dailyConfirmedCounts,
+        f: recoveredCounts, 
 }
