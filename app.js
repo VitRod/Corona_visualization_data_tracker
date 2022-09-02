@@ -87,4 +87,13 @@ const fetchCountryGeneralData = async function (name) {
 
 let canvasDisplayFlag = 0;
 
-
+const displayCountryGeneralData = function(data1){
+    console.log(data1);
+    cardCountryName.innerText = `Name of the country: ${data1[0].All.country}`;
+    cardConfirmedCases.innerText = `Total Confirmed Cases: ${data1[0].All.confirmed}`;
+    cardPercentageConfirmed.innerText = `Percentage of population affected: ${((parseFloat(data1[0].All.confirmed) / parseFloat(data1[0].All.population))*100).toFixed(4)}`;
+    cardDeaths.innerText = `Total Deaths: ${data1[0].All.deaths}`;
+    cardRecovered.innerText =   `Total Recovered: ${data1[0].All.recovered}`;
+    cardCompletelyVaccinated.innerText = `Completely Vaccinated: ${data1[1].All.people_vaccinated}`;
+    cardPartiallyVaccinated.innerText = `Partially Vaccinated: ${data1[1].All.people_partially_vaccinated}`;
+}
