@@ -110,6 +110,7 @@ let chart1, chart2, chart3, chart4, chart5, chart6;
 
 const displayCountryHistoryData = function(data2){
 
+    dates = Object.keys(data2[0].All.dates);
 
 
 
