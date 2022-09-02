@@ -122,6 +122,9 @@ const displayCountryHistoryData = function(data2){
         dailyDeathCounts.push(deathCounts[i] - deathCounts[i - 1]);
     confirmedDates = dates;
     confirmedCounts = [];
+    confirmedDates.forEach((date) => {
+        confirmedCounts.push(data2[1].All.dates[date]);
+    })
 
 
     
