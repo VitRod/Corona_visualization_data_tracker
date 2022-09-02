@@ -105,3 +105,5 @@ const checkError = function(count){
             count[i] = count[i - 1];
    }
 }
+
+let chart1, chart2, chart3, chart4, chart5, chart6;
