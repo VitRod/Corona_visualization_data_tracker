@@ -150,4 +150,6 @@ const displayCountryHistoryData = function(data2){
         e: dailyConfirmedCounts,
         f: recoveredCounts, 
         g: dailyRecoveredCounts
+
+    };
 }
