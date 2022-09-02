@@ -76,5 +76,9 @@ const getData = async (url) => {const
     });
 };
 
+const fetchCountryGeneralData = async function (name) {
+    
+}
+
 
 
