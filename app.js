@@ -116,6 +116,7 @@ const displayCountryHistoryData = function(data2){
     dates.forEach((date) => {
         deathCounts.push(data2[0].All.dates[date]);
     })
+    checkDeathError(deathCounts);
 
 
 
