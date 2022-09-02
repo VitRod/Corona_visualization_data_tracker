@@ -125,6 +125,7 @@ const displayCountryHistoryData = function(data2){
     confirmedDates.forEach((date) => {
         confirmedCounts.push(data2[1].All.dates[date]);
     })
+    checkError(confirmedCounts);
 
 
     
