@@ -97,3 +97,8 @@ const displayCountryGeneralData = function(data1){
     cardCompletelyVaccinated.innerText = `Completely Vaccinated: ${data1[1].All.people_vaccinated}`;
     cardPartiallyVaccinated.innerText = `Partially Vaccinated: ${data1[1].All.people_partially_vaccinated}`;
 }
+
+
+const checkError = function(count){
+    
+}
