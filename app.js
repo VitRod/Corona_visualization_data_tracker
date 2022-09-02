@@ -127,6 +127,9 @@ const displayCountryHistoryData = function(data2){
     })
     checkError(confirmedCounts);
     dailyConfirmedCounts = [0];
+    for (let i=1; i<dates.length; i++){
+        dailyConfirmedCounts.push(confirmedCounts[i]-confirmedCounts[i-1]);
+    }
 
 
     
