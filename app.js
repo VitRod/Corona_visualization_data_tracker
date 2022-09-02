@@ -120,7 +120,7 @@ const displayCountryHistoryData = function(data2){
     dailySeathCounts = [0];
     for(let i = 1; i < dates.length; i++)
         dailyDeathCounts.push(deathCounts[i] - deathCounts[i - 1]);
-
+    confirmedDates = dates;
 
 
     
