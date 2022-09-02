@@ -100,5 +100,8 @@ const displayCountryGeneralData = function(data1){
 
 
 const checkError = function(count){
-    
+   for( let i =  1; i < count.length; i++){
+       if(count[i] < count(i - 1))
+            count[i] = count[i - 1];
+   }
 }
