@@ -144,5 +144,5 @@ const displayCountryHistoryData = function(data2){
 
     let obj = {
         a: dates, 
-
+        b: deathCounts, 
 }
