@@ -117,7 +117,7 @@ const displayCountryHistoryData = function(data2){
         deathCounts.push(data2[0].All.dates[date]);
     })
     checkDeathError(deathCounts);
-
+    dailySeathCounts = [0];
 
 
 }
