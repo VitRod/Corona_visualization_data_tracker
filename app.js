@@ -137,7 +137,9 @@ const displayCountryHistoryData = function(data2){
     })
     checkError(recoveredCounts);
     dailyRecoveredCounts = [0];
-    
+    for (let i=1; i<dates.length; i++){
+        dailyRecoveredCounts.push(recoveredCounts[i]-recoveredCounts[i-1]);
+    }
 
 
 }
