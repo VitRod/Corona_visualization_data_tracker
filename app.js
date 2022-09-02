@@ -112,6 +112,7 @@ const displayCountryHistoryData = function(data2){
 
     dates = Object.keys(data2[0].All.dates);
     dates.reverse();
+    deathCounts = [];
 
 
 
