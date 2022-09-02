@@ -132,6 +132,9 @@ const displayCountryHistoryData = function(data2){
     }
     recoveredDates = dates;
     let recoveredCounts = [];
+    recoveredDates.forEach(date => {
+        recoveredCounts.push(data2[2].All.dates[date]);
+    })
 
     
 
