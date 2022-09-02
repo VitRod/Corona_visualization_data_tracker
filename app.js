@@ -85,5 +85,6 @@ const fetchCountryGeneralData = async function (name) {
     return data;
 }
 
+let canvasDisplayFlag = 0;
 
 
