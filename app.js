@@ -154,7 +154,7 @@ const displayCountryHistoryData = function(data2){
     };
 
     let chartAll = {
-        
+        chartDeathDates : dates,
 
 
     };
