@@ -169,6 +169,7 @@ const displayCountryHistoryData = function(data2){
     let chart90 = calculateChart(90,obj);
     let chart180 = calculateChart(180, obj);
 
+    radioButtons = document.getElementsByClassName('radio-button');
 
 
 
