@@ -156,6 +156,7 @@ const displayCountryHistoryData = function(data2){
     let chartAll = {
         chartDeathDates : dates,
         chartDeathCounts : deathCounts,
+        chartDailyDeathCounts : dailyDeathCounts,
 
     };
 
