@@ -184,3 +184,8 @@ const displayCountryHistoryData = function(data2){
         })
     }
 }
+
+const editChart = function(obj){
+
+
+}
