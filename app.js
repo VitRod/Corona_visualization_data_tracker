@@ -171,7 +171,16 @@ const displayCountryHistoryData = function(data2){
 
     radioButtons = document.getElementsByClassName('radio-button');
 
-
-
-
+    for (let i = 0; i < 4; i++ ){
+        radioButtons[i].addEventListener('click', ()=>{
+            if(i == 0)
+                editChart(chart30);
+            else if(i == 1)
+                editChart(chart90);
+            else if(i == 2)
+                editChart(chart180);
+            else
+                editChart(chartAll);
+        })
+    }
 }
