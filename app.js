@@ -160,8 +160,7 @@ const displayCountryHistoryData = function(data2){
         chartConfirmedCounts : confirmedCounts,
         chartDailyConfirmedCounts : dailyConfirmedCounts,
         chartRecoveredCounts : recoveredCounts,
-
-
+        chartDailyRecoveredCounts : dailyRecoveredCounts
     };
 
 
