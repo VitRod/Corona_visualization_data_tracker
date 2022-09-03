@@ -163,6 +163,8 @@ const displayCountryHistoryData = function(data2){
         chartDailyRecoveredCounts : dailyRecoveredCounts
     };
 
+    displayChart(chartAll);
+
 
 
 
