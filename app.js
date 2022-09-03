@@ -165,6 +165,8 @@ const displayCountryHistoryData = function(data2){
 
     displayChart(chartAll);
 
+    let chart30 = calculateChart(30,obj);
+
 
 
 
