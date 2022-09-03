@@ -186,6 +186,6 @@ const displayCountryHistoryData = function(data2){
 }
 
 const editChart = function(obj){
-
+    const {chartDeathDates, chartDeathCounts, chartDailyDeathCounts, chartConfirmedCounts, chartDailyConfirmedCounts, chartRecoveredCounts, chartDailyRecoveredCounts} = obj;
 
 }
