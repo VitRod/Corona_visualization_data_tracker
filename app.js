@@ -158,6 +158,7 @@ const displayCountryHistoryData = function(data2){
         chartDeathCounts : deathCounts,
         chartDailyDeathCounts : dailyDeathCounts,
         chartConfirmedCounts : confirmedCounts,
+        chartDailyConfirmedCounts : dailyConfirmedCounts,
 
 
     };
