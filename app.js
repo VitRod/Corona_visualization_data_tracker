@@ -215,5 +215,18 @@ const editChart = function(obj){
 const calculateChart = function(timeSpan, obj){
     const {a,b,c,d,e,f,g} = obj;
     let l = a.length;
+    let obj2 = {
+        chartDeathDates : [],
+        chartDeathCounts : [],
+        chartDailyDeathCounts : [],
+        chartConfirmedCounts : [],
+        chartDailyConfirmedCounts : [],
+        chartRecoveredCounts : [],
+        chartDailyRecoveredCounts : [],
+    }
+
+
+
+
 
 }
