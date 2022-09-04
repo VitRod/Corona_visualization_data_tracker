@@ -269,5 +269,17 @@ const countrySearchButton = document.getElementById('country-search-button');
 
 countrySearchButton.addEventListener('click', async ()=>{
 
-})
+    try{
+         
+
+
+
+
+
+        
+    }
+    catch(e){
+        displayError();
+    }
+});
 
