@@ -267,3 +267,7 @@ const displayError = function(){
 
 const countrySearchButton = document.getElementById('country-search-button');
 
+countrySearchButton.addEventListener('click', async ()=>{
+
+})
+
