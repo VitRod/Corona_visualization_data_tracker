@@ -237,6 +237,4 @@ const calculateChart = function(timeSpan, obj){
     }
 
     return obj2;
-
-
 }
