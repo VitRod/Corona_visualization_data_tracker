@@ -190,9 +190,13 @@ const editChart = function(obj){
     chart1.data.labels = chartDeathDates;
     chart1.data.datasets[0].data = chartDeathCounts;
     chart1.update();
+
     chart2.data.labels = chartDeathDates;
     chart2.data.datasets[0].data = chartDailyDeathCounts;
     chart2.update();
+
+    chart3.data.labels = chartDeathDates;
+
 
 
 
