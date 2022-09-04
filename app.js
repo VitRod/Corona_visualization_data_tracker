@@ -225,6 +225,16 @@ const calculateChart = function(timeSpan, obj){
         chartDailyRecoveredCounts : [],
     }
 
+    for (let i=l-timeSpan; i<l; i++){
+        obj2.chartDeathDates.push(a[i]);
+        obj2.chartDeathCounts.push(b[i]);
+        obj2.chartDailyDeathCounts.push(c[i]);
+        obj2.chartConfirmedCounts.push(d[i]);
+        obj2.chartDailyConfirmedCounts.push(e[i]);
+        obj2.chartRecoveredCounts.push(f[i]);
+        obj2.chartDailyRecoveredCounts.push(g[i]);
+
+    }
 
 
 
