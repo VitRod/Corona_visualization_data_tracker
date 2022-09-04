@@ -242,5 +242,13 @@ const calculateChart = function(timeSpan, obj){
 const displayChart = function(obj){
     const {chartDeathDates, chartDeathCounts, chartDailyDeathCounts, chartConfirmedCounts, chartDailyConfirmedCounts, chartRecoveredCounts, chartDailyRecoveredCounts} = obj;
 
+    canvasContainer.innerHTML = 
+    `
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-total-confirmed-cases" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-daily-confirmed-cases" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-total-deaths" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-daily-deaths" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-total-recovered" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>
+    <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-daily-recovered" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>`
 
 }
