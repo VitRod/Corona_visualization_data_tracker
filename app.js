@@ -256,5 +256,6 @@ const displayChart = function(obj){
     chart3 = makeChart(2, 'total-deaths', chartDeathDates, chartDeathCounts);
     chart4 = makeChart(2, 'daily-deaths', chartDeathDates, chartDailyDeathCounts)
     chart5 = makeChart(3, 'total-recovered', chartDeathDates, chartRecoveredCounts);
+    chart6 = makeChart(3, 'daily-recovered', chartDeathDates, chartDailyRecoveredCounts);
 
 }
