@@ -261,5 +261,7 @@ const displayChart = function(obj){
 }
 
 const displayError = function(){
-
+    cardCountryName.innerText = 'Country Not Found';
+    spinner.style.display = 'none';
 }
+
