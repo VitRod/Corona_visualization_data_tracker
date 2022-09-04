@@ -200,7 +200,7 @@ const editChart = function(obj){
     chart3.update();
 
     chart4.data.labels = chartDeathDates;
-
+    chart4.data.datasets[0].data = chartDailyConfirmedCounts;
 
 
 }
