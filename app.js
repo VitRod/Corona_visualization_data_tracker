@@ -204,5 +204,11 @@ const editChart = function(obj){
     chart4.update();
 
     chart5.data.labels = chartDeathDates;
+    chart5.data.datasets[0].data = chartRecoveredCounts;
+
+
+
+
+
 
 }
