@@ -213,6 +213,6 @@ const editChart = function(obj){
 }
 
 const calculateChart = function(timeSpan, obj){
-
+    const {a,b,c,d,e,f,g} = obj;
 
 }
