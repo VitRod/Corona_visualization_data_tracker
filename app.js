@@ -240,7 +240,7 @@ const calculateChart = function(timeSpan, obj){
 }
 
 const displayChart = function(obj){
-
+    const {chartDeathDates, chartDeathCounts, chartDailyDeathCounts, chartConfirmedCounts, chartDailyConfirmedCounts, chartRecoveredCounts, chartDailyRecoveredCounts} = obj;
 
 
 }
