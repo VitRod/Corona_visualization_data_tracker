@@ -273,7 +273,7 @@ countrySearchButton.addEventListener('click', async ()=>{
         radioButtonContainer.style.display = 'none';
         spinner.style.display = "block";
         canvasContainer.innerHTML = "";
-
+        generalDetailsContainer.style.display = "none";
 
 
 
