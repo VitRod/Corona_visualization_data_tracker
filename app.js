@@ -265,3 +265,5 @@ const displayError = function(){
     spinner.style.display = 'none';
 }
 
+const countrySearchButton = document.getElementById('country-search-button');
+
