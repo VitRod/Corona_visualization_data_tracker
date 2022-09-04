@@ -238,3 +238,9 @@ const calculateChart = function(timeSpan, obj){
 
     return obj2;
 }
+
+const displayChart = function(obj){
+
+
+
+}
