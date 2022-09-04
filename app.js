@@ -253,4 +253,8 @@ const displayChart = function(obj){
 
     chart1 = makeChart(1, 'total-confirmed-cases', chartDeathDates, chartConfirmedCounts);
     chart2 = makeChart(1, 'daily-confirmed-cases', chartDeathDates, chartDailyConfirmedCounts);
+    chart3 = makeChart(2, 'total-deaths', chartDeathDates, chartDeathCounts);
+
+
+
 }
