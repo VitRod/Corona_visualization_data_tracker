@@ -274,7 +274,7 @@ countrySearchButton.addEventListener('click', async ()=>{
         spinner.style.display = "block";
         canvasContainer.innerHTML = "";
         generalDetailsContainer.style.display = "none";
-
+        initiateGeneralDetailsContainer();
 
 
 
