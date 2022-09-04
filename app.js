@@ -252,4 +252,5 @@ const displayChart = function(obj){
     <div class="canvas-chart d-inline-block"><canvas id="chart-canvas-daily-recovered" class="h-50 w-100 mt-5 p-3 bgdarkoverlay"></canvas></div>`
 
     chart1 = makeChart(1, 'total-confirmed-cases', chartDeathDates, chartConfirmedCounts);
+    chart2 = makeChart(1, 'daily-confirmed-cases', chartDeathDates, chartDailyConfirmedCounts);
 }
