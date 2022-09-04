@@ -259,3 +259,7 @@ const displayChart = function(obj){
     chart6 = makeChart(3, 'daily-recovered', chartDeathDates, chartDailyRecoveredCounts);
 
 }
+
+const displayError = function(){
+
+}
