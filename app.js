@@ -210,7 +210,6 @@ const editChart = function(obj){
     chart6.data.labels = chartDeathDates;
     chart6.data.datasets[0].data = chartDailyRecoveredCounts;
     chart6.update();
-
-
-
 }
+
+
