@@ -283,6 +283,7 @@ countrySearchButton.addEventListener('click', async ()=>{
 
         const data2 = await fetchCountryHistoryData(selectedCountryCode);
         console.log(data2);
+        spinner.style.display = "none";
 
 
     }
