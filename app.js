@@ -297,6 +297,15 @@ const makeChart = function (id, type, Dates, Counts){
     const chart = document.getElementById(`chart-canvas-${type}`);
     let tooltipFont;
 
+    if (window.screen.width < 700){
+        chart.height = 400;
+        tooltipFont = 13
+    }
+    else{
+        chart.height = 500;
+        tooltipFont = 17;
+    }
+
 
 
 
@@ -304,3 +313,8 @@ const makeChart = function (id, type, Dates, Counts){
 
 }
 
+
+
+
+
+  
