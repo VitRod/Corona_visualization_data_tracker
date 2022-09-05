@@ -275,6 +275,7 @@ countrySearchButton.addEventListener('click', async ()=>{
         canvasContainer.innerHTML = "";
         generalDetailsContainer.style.display = "none";
         initiateGeneralDetailsContainer();
+        initiateDomOperators();
 
 
 
