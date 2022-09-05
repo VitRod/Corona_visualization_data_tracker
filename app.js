@@ -286,7 +286,6 @@ countrySearchButton.addEventListener('click', async ()=>{
         spinner.style.display = "none";
         radioButtonContainer.style.display = 'block';
         displayCountryHistoryData(data2);
-
     }
     catch(e){
         displayError();
@@ -298,7 +297,7 @@ const makeChart = function (id, type, Dates, Counts){
     const chart = document.getElementById(`chart-canvas-${type}`);
     let tooltipFont;
 
-    
+
 
 
 
