@@ -293,3 +293,9 @@ countrySearchButton.addEventListener('click', async ()=>{
     }
 });
 
+
+const makeChart = function (id, type, Dates, Counts){
+
+
+}
+
