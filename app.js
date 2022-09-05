@@ -306,6 +306,8 @@ const makeChart = function (id, type, Dates, Counts){
         tooltipFont = 17;
     }
 
+    let color;
+
 
 
 
