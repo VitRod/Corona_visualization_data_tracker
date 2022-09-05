@@ -307,7 +307,12 @@ const makeChart = function (id, type, Dates, Counts){
     }
 
     let color;
-
+    if (id==1)
+        color = 'rgba(0, 186, 232';        
+    else if (id==2)
+        color = 'rgba(200, 0, 0';
+    else if (id==3)
+        color = 'rgba(40, 186, 0';
 
 
 
