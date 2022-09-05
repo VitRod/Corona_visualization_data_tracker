@@ -285,7 +285,7 @@ countrySearchButton.addEventListener('click', async ()=>{
         console.log(data2);
         spinner.style.display = "none";
         radioButtonContainer.style.display = 'block';
-
+        displayCountryHistoryData(data2);
 
     }
     catch(e){
