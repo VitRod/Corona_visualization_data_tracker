@@ -315,10 +315,60 @@ const makeChart = function (id, type, Dates, Counts){
         color = 'rgba(40, 186, 0';
 
 
+    var myChart = new Chart(chart, {
+            type: 'line',
+            data: {
+                labels: Dates,
+                datasets: [{
+                    label: `${type}`,
+                    data: Counts,
+                    backgroundColor: [
+                        new String('' + color + ', 0.5)')
+                    ],
+                    borderColor: [
+                        new String('' + color + ', 1)')
+                    ],
+                    borderWidth: 1,
+                    pointRadius: 1,
+                    pointBorderWidth: 0,
+                    fill: true
+                }],
+                
+                
+            },
+            options: {
+                responsive: true,
+                mainAspectRatio: false,
+                animation: false,
+    
+                tooltips: {
+                    fontSize: 30,
+                    mode: 'index',
+                    intersect: false,
+                    displayColors: false,
+                    bodyFontSize: (tooltipFont-2),
+                    titleFontSize: tooltipFont
+                },
+                
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }],
+                    xAxes: [{
+                            ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+        return myChart;
+    }
 
 
 
-}
 
 
 
