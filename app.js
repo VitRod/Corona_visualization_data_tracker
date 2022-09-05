@@ -278,7 +278,7 @@ countrySearchButton.addEventListener('click', async ()=>{
         initiateDomOperators();
 
         const data1 = await fetchCountryGeneralData(selectedCountryCode);
-
+        generalDetailsContainer.style.display = "block";
 
 
     }
