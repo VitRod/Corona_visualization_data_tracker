@@ -296,7 +296,7 @@ countrySearchButton.addEventListener('click', async ()=>{
 
 const makeChart = function (id, type, Dates, Counts){
     const chart = document.getElementById(`chart-canvas-${type}`);
-
+    let tooltipFont;
 
 
 
