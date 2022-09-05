@@ -279,6 +279,7 @@ countrySearchButton.addEventListener('click', async ()=>{
 
         const data1 = await fetchCountryGeneralData(selectedCountryCode);
         generalDetailsContainer.style.display = "block";
+        displayCountryGeneralData(data1);
 
 
     }
