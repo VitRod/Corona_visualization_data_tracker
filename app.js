@@ -282,7 +282,8 @@ countrySearchButton.addEventListener('click', async ()=>{
         displayCountryGeneralData(data1);
 
         const data2 = await fetchCountryHistoryData(selectedCountryCode);
-        
+        console.log(data2);
+        spinner.style.display = "none";
 
 
     }
