@@ -7,12 +7,12 @@ countryJSON.forEach(countryListObject => {
     countryDropdownString += `<li><a class="dropdown-item country-list text-white" href="#">${tempCountry}</a></li>`;
 })
 
-
-
 const loadingComplete = function(){
     const loading = document.getElementById('loading');
     loading.style.display = 'none';
 }
+
+
 
 const countryDropDown = document.getElementById('country-dropdown');
 countryDropDown.innerHTML = countryDropdownString;
