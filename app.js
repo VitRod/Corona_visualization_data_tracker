@@ -12,9 +12,9 @@ const loadingComplete = function(){
     loading.style.display = 'none';
 }
 
-
-
 const countryDropDown = document.getElementById('country-dropdown');
+
+
 countryDropDown.innerHTML = countryDropdownString;
 
 
