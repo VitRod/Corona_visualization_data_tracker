@@ -13,9 +13,9 @@ const loadingComplete = function(){
 }
 
 const countryDropDown = document.getElementById('country-dropdown');
-
-
 countryDropDown.innerHTML = countryDropdownString;
+
+
 
 
 let selectedCountry;
