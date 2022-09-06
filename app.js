@@ -15,10 +15,10 @@ const loadingComplete = function(){
 const countryDropDown = document.getElementById('country-dropdown');
 countryDropDown.innerHTML = countryDropdownString;
 
-
-
-
 let selectedCountry;
+
+
+
 let selectedCountryCode;
 const countrySelectorButton = document.getElementById('country-selector-button');
 const countryList = document.querySelectorAll('.country-list');
