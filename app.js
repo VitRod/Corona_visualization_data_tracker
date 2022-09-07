@@ -30,10 +30,6 @@ countryList.forEach((item, index) => {
     })
 });
 
-
-
-
-
 const initiateGeneralDetailsContainer = function(){
     generalDetailsContainer.innerHTML = `
     <p class="country-name py-4 text-dark"></p>
@@ -47,6 +43,10 @@ const initiateGeneralDetailsContainer = function(){
 }
 
 let cardCountryName;
+
+
+
+
 let cardConfirmedCases;
 let cardPercentageConfirmed;
 let cardDeaths;
