@@ -49,11 +49,11 @@ let cardDeaths;
 let cardRecovered; 
 let cardCompletelyVaccinated;
 let cardPartiallyVaccinated;
-
-
-
-
 let cardPercentageVaccinated;
+
+
+
+
 
 const generalDetailsContainer = document.getElementById('general-details-container');
 const canvasContainer = document.getElementById('canvas-container');
