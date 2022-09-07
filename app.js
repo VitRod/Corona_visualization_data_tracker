@@ -45,11 +45,11 @@ const initiateGeneralDetailsContainer = function(){
 let cardCountryName;
 let cardConfirmedCases;
 let cardPercentageConfirmed;
-
-
-
-
 let cardDeaths;
+
+
+
+
 let cardRecovered; 
 let cardCompletelyVaccinated;
 let cardPartiallyVaccinated;
