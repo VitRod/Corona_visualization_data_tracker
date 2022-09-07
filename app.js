@@ -19,12 +19,12 @@ let selectedCountry;
 let selectedCountryCode;
 
 const countrySelectorButton = document.getElementById('country-selector-button');
-
-
-
-
-
 const countryList = document.querySelectorAll('.country-list');
+
+
+
+
+
 countryList.forEach((item, index) => {
     item.addEventListener('click', ()=> {
         selectedCountry = item.innerText;
