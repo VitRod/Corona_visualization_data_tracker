@@ -43,11 +43,11 @@ const initiateGeneralDetailsContainer = function(){
 }
 
 let cardCountryName;
-
-
-
-
 let cardConfirmedCases;
+
+
+
+
 let cardPercentageConfirmed;
 let cardDeaths;
 let cardRecovered; 
