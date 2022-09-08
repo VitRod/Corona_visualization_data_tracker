@@ -67,13 +67,13 @@ const initiateDomOperators = function(){
     cardPercentageVaccinated = document.querySelector('.percentage-vaccinated');
 }
     
-    
+let radioButtons = document.getElementsByClassName('radio-button');
     
    
 
 
 
-let radioButtons = document.getElementsByClassName('radio-button');
+
 
 
 const getData = async (url) => {
