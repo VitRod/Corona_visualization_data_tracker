@@ -63,12 +63,12 @@ const initiateDomOperators = function(){
     cardDeaths = document.querySelector('.deaths');
     cardRecovered = document.querySelector('.recovered');
     cardCompletelyVaccinated = document.querySelector('.completely-vaccinated'); 
-    
-    
-    
-    
-    
     cardPartiallyVaccinated = document.querySelector('.partially-vaccinated');
+    
+    
+    
+    
+    
     cardPercentageVaccinated = document.querySelector('.percentage-vaccinated');
 }
 
