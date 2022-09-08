@@ -54,11 +54,11 @@ let cardPercentageVaccinated;
 const generalDetailsContainer = document.getElementById('general-details-container');
 const canvasContainer = document.getElementById('canvas-container');
 const radioButtonContainer = document.getElementById('radio-button-container');
-
-
-
-
 const spinner = document.getElementById('spinner');
+
+
+
+
 
 
 const initiateDomOperators = function(){
