@@ -65,12 +65,12 @@ const initiateDomOperators = function(){
     cardCompletelyVaccinated = document.querySelector('.completely-vaccinated'); 
     cardPartiallyVaccinated = document.querySelector('.partially-vaccinated');
     cardPercentageVaccinated = document.querySelector('.percentage-vaccinated');
-    
+}
     
     
     
    
-}
+
 
 
 let radioButtons = document.getElementsByClassName('radio-button');
