@@ -73,14 +73,14 @@ const getData = async (url) => {
     return fetch(url).then(res => {
         return res.json();
     });
-
+};
 
 
 
    
       
    
-};
+
 
 const fetchCountryGeneralData = async function(name){
     const data = await Promise.all([
