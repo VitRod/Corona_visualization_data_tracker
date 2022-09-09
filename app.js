@@ -70,14 +70,14 @@ const initiateDomOperators = function(){
 let radioButtons = document.getElementsByClassName('radio-button');
     
 const getData = async (url) => {
-
-
-
-
-
-
-
     return fetch(url).then(res => {
+
+
+
+
+
+
+   
         return res.json();
     });
 };
