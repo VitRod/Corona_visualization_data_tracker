@@ -75,14 +75,14 @@ const getData = async (url) => {
     });
 };
 
-
+const fetchCountryGeneralData = async function(name){
 
    
       
    
 
 
-const fetchCountryGeneralData = async function(name){
+
     const data = await Promise.all([
         getData(`https://covid-api.mmediagroup.fr/v1/cases?ab=${name}`),
         getData(`https://covid-api.mmediagroup.fr/v1/vaccines?ab=${name}`)
