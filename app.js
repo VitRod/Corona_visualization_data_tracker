@@ -80,7 +80,7 @@ const fetchCountryGeneralData = async function(name){
         getData(`https://covid-api.mmediagroup.fr/v1/cases?ab=${name}`),
         getData(`https://covid-api.mmediagroup.fr/v1/vaccines?ab=${name}`)
     ]);
-
+    return data;
 
 
     
@@ -88,7 +88,7 @@ const fetchCountryGeneralData = async function(name){
         
    
     
-    return data;
+    
 }
 
 const fetchCountryHistoryData = async function(name){
