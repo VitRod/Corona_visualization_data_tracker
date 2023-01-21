@@ -91,8 +91,6 @@ canvas{
     z-index: -1;
 }
 
-
-
 #country-selector-button{
     width: 300px;
     background-color: #2be653;
@@ -104,7 +102,6 @@ canvas{
     border-radius: 5px;
     border-width: 2px;
 }
-
 
 #search{
     display: flex;
@@ -210,6 +207,8 @@ canvas{
     }
     
 }
+
+
 
 
 
